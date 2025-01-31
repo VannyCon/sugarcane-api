@@ -37,7 +37,7 @@ app.post("/upload", upload.single("image"), (req, res) => {
 
     axios({
         method: "POST",
-        url: "https://detect.roboflow.com/sugar-cane-project-l7rqo/1",
+        url: "https://detect.roboflow.com/sugar-cane-project-l7rqo/2",
         params: {
             api_key: "zI03QydC6Meeo2HlFNWo",
         },
